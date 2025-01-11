@@ -1,0 +1,66 @@
+/* Palet Warna */
+:root {
+    --neon-purple: #B026FF;
+    --neon-pink: #FF10F0;
+    --neon-cyan: #0FF0FC;
+    --black: #000000;
+}
+
+/* Body */
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(135deg, var(--neon-purple), var(--neon-pink));
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    background-color: var(--black);
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+header h1 {
+    color: var(--neon-cyan);
+    font-size: 3rem;
+}
+
+/* Buttons */
+button {
+    background-color: var(--neon-cyan);
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+button:hover {
+    background-color: var(--neon-purple);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Forms */
+input[type="text"], input[type="email"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid var(--neon-cyan);
+    background-color: var(--black);
+    color: white;
+}
+
+/* Link */
+a {
+    color: var(--neon-cyan);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
